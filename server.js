@@ -6,7 +6,10 @@ const app = express();
 // Middleware
 app.use(express.json());
 
+
 app.get('/', (req, res) => { res.send('API Running') });
+app.use('/api/products', require('./routes/api/products'));
+
 
 
 
