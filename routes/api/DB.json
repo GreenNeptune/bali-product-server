@@ -50,31 +50,24 @@
       "img": "https://images-na.ssl-images-amazon.com/images/I/61dkyb-%2BTmL._AC_UX679_.jpg"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "Rolex Watch Gold",
       "price": 32990.0,
       "quantity": 2,
       "img": "https://images-na.ssl-images-amazon.com/images/I/61dkyb-%2BTmL._AC_UX679_.jpg"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "Sony Headphones Black",
       "price": 50.0,
       "quantity": 3,
-      "img": "https://images-na.ssl-images-amazon.com/images/I/61dkyb-%2BTmL._AC_UX679_.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Sony Headphones Black",
-      "price": 6.7,
-      "quantity": 7,
-      "img": "https://images-na.ssl-images-amazon.com/images/I/61dkyb-%2BTmL._AC_UX679_.jpg"
+      "img": "https://images.unsplash.com/photo-1563626451-b5b36e6e52fb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80"
     },
     {
       "id": 10,
-      "title": "Sony Headphones Black",
-      "price": 1400.7,
-      "quantity": 7,
+      "title": "Watch Bronze",
+      "price": 1400.75,
+      "quantity": 4,
       "img": "https://cdn.pixabay.com/photo/2017/12/14/22/41/wrist-watch-3019913_1280.jpg"
     }
   ]
