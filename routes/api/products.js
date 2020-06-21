@@ -1,12 +1,16 @@
 const express = require('express');
 const router = express.Router();
-const DB = require('../api/DB')
+const Product = require('../../models/Product');
 
-
+/**
+ * @route GET /api_v1/products
+ * @Desc get all products sorted by date in descending order
+ */
 
 router.get('/',
-  (req, res) => {
-    res.status(200).json(DB.products);
+  async (req, res) => {
+    const products = await Product.find().sort({ date: 'descending' });
+    res.json(products);
     try {
     } catch (err) {
       console.log(err.message);
@@ -14,5 +18,6 @@ router.get('/',
     }
   }
 );
+
 
 module.exports = router;
