@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Product = require('../../models/Product');
+const checkObjectId = require('../../middleware/checkObjectId');
 
 /**
  * @route GET /api_v1/products
@@ -24,7 +25,7 @@ router.get('/',
  * @Desc get product by ID
  */
 
-router.get('/:id',
+router.get('/:id', [checkObjectId('id')],
   async (req, res) => {
     const { id } = req.params
     const product = await Product.findById(id)
